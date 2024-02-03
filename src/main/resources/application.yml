@@ -10,11 +10,5 @@ spring:
     hibernate:
       ddl-auto: validate
 
-  flyway:
-    enabled: true
-    schemas: public
-    validate-on-migrate: true
-    baseline-version: 0
-
-#    sql-migration-prefix: VR
-#    repeatable-sql-migration-prefix: RP
+  liquibase:
+    change-log: classpath:/db/changelog/master-changelog.xml
