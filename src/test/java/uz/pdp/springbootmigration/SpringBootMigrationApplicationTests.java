@@ -1,0 +1,13 @@
+package uz.pdp.springbootmigration;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringBootMigrationApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
